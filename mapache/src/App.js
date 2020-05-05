@@ -1,15 +1,9 @@
-import React from 'react';
-import MainPage from './Pages/MainPage'
+import React from "react";
+
+import Routes from "./Routes";
 
 const App = () => {
-  return (
-    <div className="App">
-      
-      <MainPage />
-
-    </div>
-
-  );
-}
+  return <Routes />;
+};
 
 export default App;
